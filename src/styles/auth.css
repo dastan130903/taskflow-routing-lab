@@ -1,0 +1,64 @@
+/* Authentication pages reuse the original Taskflow visual design. */
+.nav-button {
+  border: 0;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.auth-submit {
+  width: 100%;
+}
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 9px 0 15px;
+  color: #8b93a7;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.auth-footnote {
+  margin-top: 23px;
+}
+
+.auth-footnote a {
+  color: #526bc5;
+  font-weight: 750;
+}
+
+.profile-fields {
+  margin: 27px 0;
+  display: grid;
+  gap: 13px;
+}
+
+.profile-fields > div {
+  background: #f8faff;
+  border: 1px solid #e7ecf5;
+  padding: 17px;
+  border-radius: 10px;
+}
+
+.profile-fields dt {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: #74829d;
+}
+
+.profile-fields dd {
+  margin: 8px 0 0;
+  font-size: 15px;
+  color: #263550;
+  overflow-wrap: anywhere;
+}
+
+.profile-fields .uid {
+  font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  font-size: 12px;
+}
